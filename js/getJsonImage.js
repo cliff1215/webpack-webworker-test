@@ -1,7 +1,8 @@
 
 import DcmImageInfo from './DcmImageInfo'
+import Twix from './twix'
 
-importScripts('twix.min.js'); 
+//importScripts('twix.min.js'); 
 
 self.onmessage = (evt) => {
     console.log(evt.data);

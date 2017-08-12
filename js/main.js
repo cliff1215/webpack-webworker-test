@@ -16,7 +16,7 @@ let worker = new MyWorker();
 
 //let worker = new Worker('worker.js');
 worker.onmessage = (evt) => {
-    worker.terminate;
+    worker.terminate();
     
     console.log(evt.data);
     document.getElementById('another-output')
